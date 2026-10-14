@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wood",
+    "word": "WOOD",
+    "translation": "木头",
+    "color": "#a36b42",
+    "model": "wood",
+    "position": [
+      -3,
+      2
+    ],
+    "audio": "audio/wood.wav"
+  },
+  {
+    "id": "stone",
+    "word": "STONE",
+    "translation": "石头",
+    "color": "#8e9aa5",
+    "model": "stone",
+    "position": [
+      2,
+      2
+    ],
+    "audio": "audio/stone.wav"
+  },
+  {
+    "id": "dirt",
+    "word": "DIRT",
+    "translation": "泥土",
+    "color": "#936244",
+    "model": "dirt",
+    "position": [
+      -5,
+      5
+    ],
+    "audio": "audio/dirt.wav"
+  },
+  {
+    "id": "sand",
+    "word": "SAND",
+    "translation": "沙子",
+    "color": "#e4c785",
+    "model": "sand",
+    "position": [
+      6,
+      4
+    ],
+    "audio": "audio/sand.wav"
+  },
+  {
+    "id": "grass",
+    "word": "GRASS",
+    "translation": "草",
+    "color": "#7dba57",
+    "model": "grass",
+    "position": [
+      -6,
+      0
+    ],
+    "audio": "audio/grass.wav"
+  },
+  {
+    "id": "iron",
+    "word": "IRON",
+    "translation": "铁",
+    "color": "#9ab1bc",
+    "model": "iron",
+    "position": [
+      5,
+      -2
+    ],
+    "audio": "audio/iron.wav"
+  },
+  {
+    "id": "gold",
+    "word": "GOLD",
+    "translation": "金子",
+    "color": "#f6c947",
+    "model": "gold",
+    "position": [
+      7,
+      -5
+    ],
+    "audio": "audio/gold.wav"
+  },
+  {
+    "id": "diamond",
+    "word": "DIAMOND",
+    "translation": "钻石",
+    "color": "#75dce1",
+    "model": "diamond",
+    "position": [
+      -7,
+      -5
+    ],
+    "audio": "audio/diamond.wav"
+  },
+  {
+    "id": "apple",
+    "word": "APPLE",
+    "translation": "苹果",
+    "color": "#eb7760",
+    "model": "apple",
+    "position": [
+      -3,
+      -5
+    ],
+    "audio": "audio/apple.wav"
+  },
+  {
+    "id": "sword",
+    "word": "SWORD",
+    "translation": "剑",
+    "color": "#a6c4d1",
+    "model": "sword",
+    "position": [
+      4,
+      6
+    ],
+    "audio": "audio/sword.wav"
+  }
+]

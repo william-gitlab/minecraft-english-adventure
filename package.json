@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-english-adventure",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "npm run build && playwright test"
+  },
+  "dependencies": { "three": "0.186.1" },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/three": "0.183.1",
+    "typescript": "5.9.3",
+    "vite": "8.3.4"
+  }
+}
