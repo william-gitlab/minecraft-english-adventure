@@ -26,7 +26,7 @@ A playable, original voxel-world English adventure for children ages 5–8. Buil
 
 部署后，用 iPad 的 **Safari** 打开游戏的 HTTPS 网址，横过来，点 **Let's explore**。打开游戏的扬声器按钮，并确认 iPad 音量足够。也可以通过 Safari 的“分享 → 添加到主屏幕”创建入口。
 
-本仓库已包含完整游戏和静态构建。**目前不等于已经公开发布**。公开网址需把代码推送至 GitHub、启用 Pages 并运行部署；这些外部发布操作需要项目所有者授权。当前云机器的 localhost 地址不能从 iPad 访问。
+本仓库已包含完整游戏和静态构建。请以 GitHub Actions 的成功部署结果提供的 HTTPS 网址为准；当前云机器的 localhost 地址不能从 iPad 访问。公开发布已获项目所有者授权。
 
 优先使用 Safari 的英语语音；十个单词都有随游戏提供的 WAV 备援发音。没有账号、广告或内购。学习数据保存在本设备、同一 Safari 网站的 localStorage 中；私密浏览、清理网站数据或改变网站域名可能清除进度。此原型需要首次从网站加载，尚未实现完整离线安装。
 
@@ -61,15 +61,15 @@ Browser-download domains `cdn.playwright.dev`, `cdn.download.playwright.dev`, an
 
 For a real iPad acceptance check: collect wood, hear its pronunciation, make and recover from a spelling mistake, earn two wood, build the floor, try Level 2 and 3, complete the house, walk into the new meadow, and reopen Safari to confirm the save.
 
-## Deployment prepared, not executed
+## Publishing with GitHub Pages
 
-The manually triggered workflow at `.github/workflows/deploy.yml` builds and publishes the `dist/` directory to GitHub Pages. It does not publish on every push.
+The workflow at `.github/workflows/deploy.yml` builds and publishes the `dist/` directory to GitHub Pages whenever code is pushed to `main`. It can also be triggered manually.
 
-After the owner authorizes publication:
+With the owner's publication authorization:
 
 1. Push the project to its GitHub repository.
 2. Set **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-3. Run **Actions → Publish playable game to GitHub Pages → Run workflow**.
+3. Push to `main` to start deployment, or use **Actions → Publish playable game to GitHub Pages → Run workflow**.
 4. Open the successful deployment's actual URL in iPad Safari.
 
 Alternatively, `dist/` can be hosted by any HTTPS static host. Relative asset URLs support both the site root and repository subpaths. Never open `index.html` directly as a local file; ES modules and vocabulary fetching require an HTTP(S) server.
